@@ -36,7 +36,7 @@ export default function ReviewsSection({ score, count }: Props) {
 
       {/* Subtext */}
       <p className="text-center italic text-pink-700 text-base tracking-wide">
-        "Loved by our customers! 🍰"
+        `&quot;`Loved by our customers! 🍰`&quot;`
       </p>
     </section>
   );
