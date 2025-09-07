@@ -13,6 +13,18 @@ export default function Home() {
       title: "Rara Cake",
       desc: "Handmade Cakes with ❤️ in Galați, Romania",
     },
+
+    {
+      slug: "portfolio",
+      title: "Portfolio",
+      desc: "Portfolio My Work",
+    },
+
+    {
+      slug: "cartonchile",
+      title: "cartonchile Carton Box",
+      desc: "cartonchile is Corrugated Box Menufacturar in Chile",
+    },
   ];
 
   return (

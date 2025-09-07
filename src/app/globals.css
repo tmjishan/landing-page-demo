@@ -1,4 +1,5 @@
 @import "tailwindcss";
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap");
 
 :root {
   --gap: 1.25rem;
@@ -20,4 +21,36 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+/*---------------------------------------------------------------- portfolio Start Hare */
+.portfolioBody {
+  font-family: Manrope, sans-serif;
+  background-color: #161616;
+  background-image: url("/portfolio/636f61f84679d8dae732906e_Dark-Background-Pattern.svg");
+  background-position: 0 0;
+  background-size: 80px;
+  background-attachment: scroll;
+  height: auto;
+}
+
+/*---------------------------------------------------------------- cartonchile Start Hare */
+.cartonchiletop {
+  font-family: Manrope, sans-serif;
+  background-color: #161616;
+  background-image: url("/portfolio/636f61f84679d8dae732906e_Dark-Background-Pattern.svg");
+  background-position: 0 0;
+  background-size: 50px;
+  background-attachment: scroll;
+  height: auto;
+}
+
+.desp {
+  background-color: white;
+  background-image: url("/cartonchile/geometric.svg"); /* <-- 'cartonchile' */
+  background-position: 0 0;
+  background-size: 100px;
+  /* background-repeat: repeat; optional, but clearer */
+  background-attachment: scroll;
+  height: auto;
 }

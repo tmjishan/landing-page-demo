@@ -1,0 +1,15 @@
+"use client";
+
+import Hero from "./components/Hero";
+import Navbar from "./components/Navbar";
+
+export default function Home() {
+  return (
+    <>
+      <div className="portfolioBody min-h-screen">
+        <Navbar />
+        <Hero />
+      </div>
+    </>
+  );
+}
