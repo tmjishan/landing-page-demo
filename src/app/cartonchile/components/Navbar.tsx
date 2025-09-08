@@ -1,5 +1,5 @@
 "use client";
-import { FiPhone, FiMail, FiArrowRight } from "react-icons/fi";
+import { FiPhone, FiMail } from "react-icons/fi";
 import { useEffect, useRef } from "react";
 import Image from "next/image";
 import Link from "next/link";
